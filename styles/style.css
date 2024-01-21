@@ -179,7 +179,7 @@
 .header__paragraf {
   justify-self: start;
   align-self: center;
-  margin-block-start: -5px;
+  margin-block-start: -7px;
   font-size: 18px;
   font-weight: 700;
   line-height: 130%;
@@ -307,8 +307,7 @@
 }
 
 .content-section__pictures {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 10px;
 }
 @media (width >= 768px) {
@@ -326,14 +325,8 @@
 
 @media (width >= 768px) {
   .content-section__pictures-gallery {
-    grid-template-columns: minmax(229px, 1fr) minmax(230px, 1fr) minmax(
-        229px,
-        1fr
-      );
-    grid-template-rows: minmax(192px, 260px) minmax(230px, 315px) minmax(
-        318px,
-        428px
-      );
+    grid-template-columns: minmax(229px, 1fr) 230px minmax(229px, 1fr);
+    grid-template-rows: minmax(192px, 260px) 230px minmax(318px, 428px);
     gap: 20px;
     grid-template-areas:
       "pic1 pic1 pic2"
@@ -358,6 +351,10 @@
 }
 
 @media (width >= 1024px) {
+  .content-section__pictures-gallery {
+    grid-template-columns: minmax(229px, 1fr) 315px minmax(229px, 1fr);
+    grid-template-rows: minmax(192px, 260px) 315px minmax(318px, 428px);
+  }
   .picture-5 {
     padding-block-start: 5px;
   }
@@ -395,6 +392,7 @@
   text-shadow: 4px 4px 0 var(--shadow-text-color);
   justify-self: center;
   align-self: center;
+  padding-block-start: 5px;
 }
 @media (width >= 768px) {
   .footer__title {
@@ -421,7 +419,7 @@
 .footer-decorated::after {
   content: "";
   position: absolute;
-  inset: auto auto 10px 0;
+  inset: auto auto 5px 0;
   block-size: 25px;
   inline-size: 25px;
   border-block-end: 1px solid var(--accent-color, #ff0070);
