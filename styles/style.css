@@ -328,8 +328,6 @@
 
 .content-section__pictures-gallery {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
   gap: 10px;
 }
 

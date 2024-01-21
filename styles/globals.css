@@ -34,6 +34,11 @@ picture {
   padding: 0;
 }
 
+img {
+  margin: 0;
+  padding: 0;
+}
+
 button,
 a {
   color: currentColor;
