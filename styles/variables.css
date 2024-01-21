@@ -4,13 +4,13 @@
 */
 :root {
   --bg-color: #000028; /*тёмная - меняется на светлый*/
-  --accent-color: #FF0070; /*тёмная - меняется на чёный*/
-  --accent-bg-color:#FF0070; /*тёмная - меняется на розовый*/
-  --content-text-color: #F1B2CE; /*тёмная - меняется на чёный*/
-  --main-title-text-color: #DB00FF; /*тёмная - меняется на более светлый розовый*/
+  --accent-color: #ff0070; /*тёмная - меняется на чёный*/
+  --accent-bg-color: #ff0070; /*тёмная - меняется на розовый*/
+  --content-text-color: #f1b2ce; /*тёмная - меняется на чёный*/
+  --main-title-text-color: #db00ff; /*тёмная - меняется на более светлый розовый*/
   --titles-text-color: #000028; /*тёмная - меняется на чёрный*/
-  --shadow-text-color:#FF0070; /*тёмная - меняется на светло-розовый*/
-  --shadow-text-color-decktop:#FF0070; /*общее*/
+  --shadow-text-color: #ff0070; /*тёмная - меняется на светло-розовый*/
+  --shadow-text-color-decktop: #ff0070; /*общее*/
   --main-font: "IBM Plex Mono"; /*общее*/
-  --background-image: url(../images/cover-image-dark.png);  /*тёмная - меняется на светлый*/
+  --background-image: url(../images/cover-image-dark.png); /*тёмная - меняется на светлый*/
 }
